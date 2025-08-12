@@ -1,0 +1,84 @@
+body{
+	background-color:#f4f4f4;
+	color:#555555;
+
+	font-family:"relaway" ,sens-serif;
+	font-size:16px;
+	font-weight:bold;
+	/* Same as above*/
+	font: bold 16px Arial , Helvetica, sens-serif;
+
+	line-height:1.6em ;
+	margin: 0;
+}
+
+.cont1{
+	background-image: url("../Images/img1.jpg");
+	background-size: cover;
+	height: 500px;
+	background-position: center;
+}
+
+.bord{
+	border: 1px gray solid;
+	text-align: center;
+	width: 40%;
+	margin: auto;
+	color: white;
+
+}
+
+.nav{
+	
+	margin: 0;
+	text-align: center;
+}
+
+.button{
+	background-color: lightgrey;
+	color: black;
+	padding: 10px;
+    border: none;
+    text-decoration: none;
+}
+
+a:hover{
+	color: green;
+	background-color: white;
+}
+
+.img{
+	text-align: center;
+}
+
+.contact{
+	width: 80%;
+	margin: auto;
+}
+
+.border{
+	background-color:lightgrey;
+	text-align: center;
+	color:black;
+    border:1px black solid;
+    padding:60px;
+}
+
+.myform{
+	display: block;
+}
+
+.myform input[type="text"] , [type="number"], [type="submit"]{
+	padding: 9px;
+	width: 100%;
+}
+
+.myform input[type="submit"]{
+	color: white;
+	background-color: black;
+}
+
+.myform input[type="submit"]:hover{
+	
+	background-color: green;
+}
